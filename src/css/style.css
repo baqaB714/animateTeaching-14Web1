@@ -146,6 +146,7 @@
         height: 50px;
         background-color: #f09819;
         cursor: pointer;
+        
     }
 
     #musicBox{
@@ -237,7 +238,10 @@
         height: 100px;
         background-color: #ff5722;
         position: relative;
-        animation: move-right 2s infinite; /* اجرای انیمیشن با مدت زمان 2 ثانیه و تکرار بی‌نهایت */
+        animation: move-right  ; /* اجرای انیمیشن با مدت زمان 2 ثانیه و تکرار بی‌نهایت */
+        animation-duration: 2s;
+        animation-direction: reverse;
+        animation-iteration-count: 5;
     }
 
     .shadow-animate{
